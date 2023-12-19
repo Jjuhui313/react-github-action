@@ -11,7 +11,7 @@ function App() {
       </header>
       <button
         data-testid="minus-button"
-        onClick={(prev) => prev - 1}
+        onClick={() => setCount((prev) => prev - 1)}
         disabled={disabled}
       >
         -
